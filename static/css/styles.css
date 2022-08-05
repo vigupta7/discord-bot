@@ -1,0 +1,218 @@
+body
+{
+    background: url(../images/bodyBg.jpg);
+    background-size: cover;
+    background-position: center ;
+    padding: 0;
+    margin: 0;
+}
+
+.containerInner
+{
+    height: 100vh;
+}
+
+.topLogosBox
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+
+.authorizeBtn
+{
+    background: #FFB501;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 90px;
+    border-radius: 3px;
+    text-decoration: none !important;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.80px;
+    border: 1px solid #FFB501;
+    font-weight: 600;
+}
+
+.authorizeBtn:hover
+{
+    opacity: 0.9;
+}
+
+.bottom_authorize_container
+{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.textContainerInner
+{
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 48px;
+}
+
+.bottom_verify_container
+{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.buttonContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.verifyBtn:hover
+{
+    opacity: .9;
+}
+
+.captchaCode
+{
+    background: #ccc;
+    max-width: 360px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.textInfoContainer
+{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    position: fixed;
+    top: 40%;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+
+
+.hide
+{
+    display: none;
+}
+
+.verifyBtn
+{
+    background: #FFB501;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 120px;
+    border-radius: 3px;
+    text-decoration: none !important;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.80px;
+    border: 1px solid #FFB501;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#login
+{
+    position: relative;
+}
+
+.loaderInner {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+#loadingImageVerify
+{
+    display: flex;
+}
+
+.relatedParent
+{
+    position: relative;
+}
+
+@media only screen and (max-width:768px) 
+{
+    body{
+        background-size: 900px 100%;
+        background-repeat: no-repeat;
+    }
+    .bottom_authorize_container
+    {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .containerInner
+    {
+        width: 100%;
+    }
+
+    .authorizeBtn , .verifyBtn
+    {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 23px;
+        max-width: 360px;
+    }
+
+    .topLogosBox
+    {
+        padding: 15px;
+    }
+
+    .buttonContainer
+    {
+        flex-wrap: wrap;
+    }
+    
+    .textInfoContainer
+    {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    
+    .bottom_verify_container
+    {
+        bottom: 15px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .verifyBtn
+    {
+        font-size: 23px;
+        width: 100%;
+        padding: 10px 0;
+        max-width: 360px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .captchaCode
+    {
+        height: 56px;
+        max-width: 260px;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,51 @@
+{
+  "name": "discord-token-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orels1/discord-token-generator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "discord"
+  ],
+  "author": "orels1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orels1/discord-token-generator/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "webpack": "^2.5.1"
+  },
+  "homepage": "https://github.com/orels1/discord-token-generator#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "@hcaptcha/react-hcaptcha": "^1.1.0",
+    "axios": "^0.26.0",
+    "btoa": "^1.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.15.2",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
